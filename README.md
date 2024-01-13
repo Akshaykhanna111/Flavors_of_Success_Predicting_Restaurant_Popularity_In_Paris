@@ -19,37 +19,31 @@ Data Cleaning:
   Activities:  
     *Remove duplicates and drop redundant columns <br>
     *Change data types (if required) <br>
-    *Treat outliers and missing values <br>
     *Feature engineering - Create new features for better modeling <br>
     *Modify column names <br>
     *Aggregate data to update the data granularity for merging all the datasets <br>
 
 ### Step 3 
-Framework Development:
-  
-  Objective: Establish a structured framework for conducting the analysis based on identified dimensions and measures.
-  
-  Activities:<br>
-    *Defining dimensions and measures of interest.<br>
-    *Structuring the analysis framework for comprehensive insights extraction.<br>
-    *Following were the analysis aspects created - Geographical Analysis and Host Rating Analysis<br>
+EDA:
 
+Objective: Study data patterns to do feature selection, transformation, treating outliers and missing values for better modeling
+  
+Activities:<br>
+    *Study the histograms for analyzing skewness and variance in numerical columns distribution<br>
+    *Boxplots to identify outliers<br>
+    *Bar charts for categorical variable distribution<br>
+    *Geographical analysis of various data points to establish hypothesis for feature importance<br>
+    
 ### Step 4
-Geographical Analysis:
-  
-  Objective: Analyze and visualize data patterns across different geographies.
-  
-  Sub-Objectives and Activities:<br>
-    *Platform Registration Rate Analysis:<br>
-      -Yearly and monthly registration trends visualization.<br>
-      -Geographical distribution of registration rates.<br>
-    *Impact of External Events:<br>
-      -Assessing and visualizing the influence of external events on registration rates.<br>
-    *Pricing and BNB Type Preferences:<br>
-      -Analyzing pricing trends across geographies.<br>
-      -Preference analysis for different BNB types.<br>
-    *Forecasting:<br>
-      Developing forecasting models for platform registration and pricing trends across geographies.<br>
+Feature Selection:
+
+Objective: Drop features not relevant for modeling using statistical tests and other methods
+
+Activities:<br>
+    *Correlation heatmap to study the multi-collinearity within the data<br>
+    *T-tests for selecting numerical variables with p value < 0.05 <br>
+    *Chi-square tests for selecting categorical variables with p-values < 0.05 <br>
+    *Drop variables that are not relevant from business standpoint or having a high missing value proportion<br> 
 
 ### Step 5
 Host Rating Analysis:
