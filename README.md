@@ -1,5 +1,5 @@
 ## Project/Goals
-Project Title: Falvors of Success (Predicting the Restaurant Popularity in Paris using Open Data like Yelp, Google Maps and Bike Station density etc.)
+Project Title: Flavors of Success (Predicting the Restaurant Popularity in Paris using Open Data like Yelp, Google Maps and Bike Station density etc.)
 
 Project Summary:
 The project focuses on leveraging open data to build a model that will help predict the restaurant popularity in Paris basis features like location of restaurant, competitors in vicinity, POI density within 1km, cuisine type etc.
@@ -55,9 +55,9 @@ Activities:<br>
       - Plot the ROC curve and check the model performance (recall, accuracy) on train and test set <br>
   *Logistic Regression <br>
         - Plot the ROC curve and check the model performance (recall, accuracy) on train and test set <br>
-  *BalancedRandomForestClassifier <br>
+  *Balanced Random Forest Classifier <br>
         - Plot the ROC curve and check the model performance (recall, accuracy) on train and test set <br>
-  *Random Forest (Tuned) with threshold adjustment to handle class impbalance in the dataset <br>
+  *Random Forest (Tuned) with threshold adjustment to handle class imbalance in the dataset <br>
         - Plot the ROC curve and check the model performance (recall, accuracy) on train and test set <br>
  
 ### Step 6 
