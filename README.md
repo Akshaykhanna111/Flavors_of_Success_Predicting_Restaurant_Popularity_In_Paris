@@ -1,20 +1,15 @@
-# Falvors of Success - Predicting the Restaurant Popularity in Paris using Open Data like Yelp, Google Maps and Bike Stations etc.
-
 ## Project/Goals
-Project Title: Airbnb Listing Analysis and Visualization
+Project Title: Falvors of Success (Predicting the Restaurant Popularity in Paris using Open Data like Yelp, Google Maps and Bike Station density etc.)
 
 Project Summary:
-The project focuses on analyzing and visualizing data from Airbnb listings. Leveraging Tableau's capabilities, the dataset is explored through various perspectives, uncovering insights on registration forecasts, host profitability, trends, correlations, and more.
+The project focuses on leveraging open data to build a model that will help predict the restaurant popularity in Paris basis features like location of restaurant, competitors in vicinity, POI density within 1km, cuisine type etc.
 
 ## Process
 ### Step 1
-Data Exploration:  
-
-  Objective: Gain familiarity with the raw Airbnb listing dataset.
-  
-  Activities:<br>
-    *Initial data loading and inspection.<br>
-    *Understanding dataset structure and attributes.<br>
+Data Collection:
+1. Yelp API - We fetched the data of 2500 restaurants in Paris using latitude and longitude.
+2. Google Maps Places - For the mentioned latitude and longitude, we got details from google places api regarding the street popularity, reviews, different types of POIs within 1km
+3. City Bike API - This api was leveraged to churn the data of bike stations within the 1 km vicinity of the restaurants 
     
 ### Step 2
 Data Cleaning:
@@ -22,7 +17,12 @@ Data Cleaning:
   Objective: Address and rectify any inconsistencies, missing values, or anomalies in the dataset.
   
   Activities:  
-    *Identifying issues to be handled like - missing data, data outliers and inconsistencies and data format standardizing issues
+    *Remove duplicates and drop redundant columns
+    *Change data types (if required) 
+    *Treat outliers and missing values
+    *Feature engineering - Create new features for better modeling
+    *Modify column names
+    *Aggregate data to update the data granularity for merging all the datasets
 
 ### Step 3 
 Framework Development:
