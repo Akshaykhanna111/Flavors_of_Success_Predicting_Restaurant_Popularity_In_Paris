@@ -66,29 +66,23 @@ Documentation and Reporting:
 Objective: Summarize the findings from this project in the form of a presentation for the relevant audience. 
 
 ## Results
-For this project Option 2 was selected and within this option, the NY Airbnb dataset was picked for analysis. Results and analysis of this activity are listed below - 
-1. Registration trend analysis - For certain geographies like Manhattan and Brooklyn, there has been a significant growth in the registration trend on the platform from 2008 to 2015.
-2. Pricing Trend Analysis - Median pricing across geographies has been dropping, though the magnitude of drop is not very high.
-3. Forecasting the registration and pricing trends -
-   * Registration will be increasing for private rooms whereas for homes it will be dropping in next 6 quarters.
-   * Pricing will not vary much and continue to be +-3/4 around the last quarter's median value
-4. Registration and Pricing seasonality within a year -
-   * Registration spikes during summers whereas pricing doesn't vary much throughout the year
-5. Pricing variance by zipcodes
-   * Only one zipcode had anomalous median pricing in Staten Islands of 850 rest all were within 150 limit
-6. Correlation heatmap between pricing and ratings -
-   * Customers in Staten Islands are a bit price sensitive, meaning high prices can negatively impact the rating whereas for other neighborhoods no such pattern was observed
-7. K-means clustering -
-   * Using clustering analysis in Tableau hosts were clustered into 4 clusters. Hosts within cluster 2 and 3 were found to be most profitable with high ratings and high pricing (leading to higher commissions for Airbnb)
-8. Top N hosts dynamic report was created (user can input the ranks through parameter filters)
-9. YOY rating growth chart was created - There was a consistent drop (minor) in ratings between 2012 to 2014, which was addressed from 2015 onwards.
-10. Dynamic BNB stats report was created to visualize various measures across geographies and room types.
-11. Finally a dashboard was created for the user to study all the above insights in a single view
+Following are the insights from this analysis - 
+1. Price senstivity of customers - it shows that customers are price sensitive and most of the cheaper restaurants are located on the outskirts of the city. Restaurant review counts and ratings are higher for cheaper alternatives within the heart of the city.
+2. POI density - Most of the tourist spots are within the centre of the city and the POIs like lodging, banks etc are located on the outskirts.
+3. Population density - Population density is higher on the outskirts compared to the central part of the city.
+4. French cuisine seems to be an outlier contributing to about 53% of overall distribution, closely followed by Italian and Bistros.
+5. Final factors that contribute significantly to the restaurant popularity -
+   5.1 Pricing with respect to location (heart of the city or outskirts)
+   5.2 POI Density
+       5.2.1 Street popularity as per google maps
+       5.2.2 Vicinity to public transit stations, shopping malls and museums
+       5.2.3 The most populated areas in the map are the most served (i.e. they have a very high POI density of Banks, ATMs, Supermarkets etc)
+
 
 ## Challenges 
-1. Data Recency was till 2015 only 
-2. Geography was limited to NY
-3. For 30% records no ratings were available
+1. Data size was limited to 1700 restaurant (after joining all the sets) owing to Yelp API limitations of 500 Lat Long calls per 24 hours
+2. Language difference in open data source was challenging at times 
+3. Demographic data like income per capita, age groups, real estate prices etc were available on payment
 
 ## Future Goals
 1. Accumulate more data for analysis
