@@ -43,21 +43,23 @@ Activities:<br>
     *Correlation heatmap to study the multi-collinearity within the data<br>
     *T-tests for selecting numerical variables with p value < 0.05 <br>
     *Chi-square tests for selecting categorical variables with p-values < 0.05 <br>
-    *Drop variables that are not relevant from business standpoint or having a high missing value proportion<br> 
+    *Drop variables that are not relevant from business standpoint or having a high missing value proportion <br> 
 
 ### Step 5
-Host Rating Analysis:
+Model Building:
 
-Objective: Investigate host ratings and their correlations with various factors.
+Objective: Try and tune different models on the given dataset. Check for bias and variance and select the best performing model accordingly. 
 
-Sub-Objectives and Activities:<br>
-  *Correlation Analysis:<br>
-    -Assessing correlations between host ratings and pricing.<br>
-  *Profitability Analysis:<br>
-    -Identifying and clustering hosts based on profitability metrics like review count and pricing.<br>
-  *Dashboard Creation:<br>
-    -Designing interactive dashboards showcasing top hosts across geographies and room categories.<br>
-
+Activities:<br>
+  *KNN Model <br>
+      - Plot the ROC curve and check the model performance (recall, accuracy) on train and test set <br>
+  *Logistic Regression <br>
+        - Plot the ROC curve and check the model performance (recall, accuracy) on train and test set <br>
+  *BalancedRandomForestClassifier <br>
+        - Plot the ROC curve and check the model performance (recall, accuracy) on train and test set <br>
+  *Random Forest (Tuned) with threshold adjustment to handle class impbalance in the dataset <br>
+        - Plot the ROC curve and check the model performance (recall, accuracy) on train and test set <br>
+ 
 ### Step 6 
 Documentation and Reporting:
 
