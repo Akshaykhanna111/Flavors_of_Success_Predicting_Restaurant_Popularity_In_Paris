@@ -85,6 +85,11 @@ Following are the insights from this analysis -
 3. Demographic data like income per capita, age groups, real estate prices etc were available on payment
 
 ## Future Goals
-1. Accumulate more data for analysis
-2. Study patterns across geographies as seasonality, user preferences, macro-economic factors will vary across regions
-3. Take into account the macro-economic factors like inflation, flight prices, weather etc. 
+1. Data collection
+   - Research for more open data and include the same for future modeling
+   - Accumulate more data through multiple api calls to be able to better train the model
+
+2. Data Engineering -
+   - Adjust the data engineering in order to train the model with more data
+
+3. User friendly dashboard for more real time insights to prospective restaurant owners - User can identify restaurant locations to better cater to their target segments in terms of cuisine preference, pricing, and market competition etc. 
