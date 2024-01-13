@@ -17,12 +17,12 @@ Data Cleaning:
   Objective: Address and rectify any inconsistencies, missing values, or anomalies in the dataset.
   
   Activities:  
-    *Remove duplicates and drop redundant columns
-    *Change data types (if required) 
-    *Treat outliers and missing values
-    *Feature engineering - Create new features for better modeling
-    *Modify column names
-    *Aggregate data to update the data granularity for merging all the datasets
+    *Remove duplicates and drop redundant columns <br>
+    *Change data types (if required) <br>
+    *Treat outliers and missing values <br>
+    *Feature engineering - Create new features for better modeling <br>
+    *Modify column names <br>
+    *Aggregate data to update the data granularity for merging all the datasets <br>
 
 ### Step 3 
 Framework Development:
