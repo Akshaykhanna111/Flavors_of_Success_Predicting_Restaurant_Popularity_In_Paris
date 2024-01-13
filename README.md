@@ -63,11 +63,7 @@ Activities:<br>
 ### Step 6 
 Documentation and Reporting:
 
-Objective: Document the analysis methodologies, findings, and insights for clear communication and reference in the form of presentation and dashboard.
-
-Activities:<br>
-  *Compiling analysis results.<br>
-  *Creating detailed documentation and reports highlighting key insights and recommendations.<br>
+Objective: Summarize the findings from this project in the form of a presentation for the relevant audience. 
 
 ## Results
 For this project Option 2 was selected and within this option, the NY Airbnb dataset was picked for analysis. Results and analysis of this activity are listed below - 
